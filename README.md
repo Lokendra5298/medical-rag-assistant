@@ -26,15 +26,18 @@ The chatbot retrieves relevant information from medical PDF documents and genera
 
 ## 📁 Project Structure
 
+```text
 medical-chatbot/
 │
-├── create_memory_from_docs.py  # PDF processing and FAISS indexing
-├── lllm_with_memory.py         # Command-line RAG chatbot
-├── medical_bot.py              # Streamlit chatbot
-├── requirements.txt            # Python dependencies
-├── .env                        # API credentials
-├── data/                       # Medical PDF documents (optional)
-└── vectorstore/db_faiss/       # FAISS vector database
+├── create_memory_from_docs.py    # PDF processing and FAISS indexing
+├── lllm_with_memory.py           # Command-line RAG chatbot
+├── medical_bot.py                # Streamlit chatbot
+├── requirements.txt              # Python dependencies
+├── .env                          # API credentials (not committed)
+├── data/                         # Medical PDF documents (optional)
+└── vectorstore/
+    └── db_faiss/                 # FAISS vector database
+```
 
 ## ⚙️ Installation
 
