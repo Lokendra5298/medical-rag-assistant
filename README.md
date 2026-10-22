@@ -80,9 +80,9 @@ streamlit run medical_bot.py
 python lllm_with_memory.py
 
 ## 🔄 RAG Workflow
-
+```
 Medical PDF → Text Extraction → Text Chunking → Hugging Face Embeddings → FAISS Vector Store → Similarity Search → Groq LLM → Answer with Sources
-
+```
 ## 💬 Example Questions
 
 - What is diabetes mellitus?
@@ -91,20 +91,20 @@ Medical PDF → Text Extraction → Text Chunking → Hugging Face Embeddings �
 - What are the common treatments for pneumonia?
 - What causes cardiovascular diseases?
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This chatbot is intended for educational and research purposes only.
 It does not provide professional medical diagnosis or treatment advice.
 Answers depend on the uploaded documents and should be independently verified.
 
-## 📌 Future Improvements
-
+## Future Improvements
+```
 - Conversational memory
 - Hybrid search (BM25 + dense retrieval)
 - Cross-encoder reranking
 - RAG evaluation and hallucination detection
 - Support for multiple document formats
-
+```
 ## 📄 License
 
 This project is intended for educational and research purposes.
