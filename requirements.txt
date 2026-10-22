@@ -1,0 +1,28 @@
+# LangChain Framework
+langchain-core
+langchain-classic
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+
+# Embedding Models
+sentence-transformers
+transformers
+torch
+
+# Vector Database
+faiss-cpu
+
+# PDF Processing
+pypdf
+
+# Web Application
+streamlit
+
+# Environment Variables
+python-dotenv
+
+# API Integrations
+groq
+huggingface-hub
